@@ -1,0 +1,9 @@
+<% include partials/header %>
+
+<h1><%= title %></h1>
+
+<% complaints.forEach((c) => { %>
+<%= c.name %>
+<% }) %>
+
+<% include partials/footer %>
